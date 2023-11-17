@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <script
+      src="https://kit.fontawesome.com/25e2f1141b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- header  -->
+      <header>
+        <a href="index.html">
+          <img src="images/logo plant.svg" alt="logo" class="header_logo" />
+        </a>
+        <form class="header_form">
+          <input
+            name="search"
+            class="header_search"
+            type="search"
+            placeholder="What are you looking for?"
+          />
+          <button type="submit" class="search_butn"></button>
+        </form>
+        <div class="header_div">
+          <a href="">
+            <button class="button_log_in">LOG IN</button>
+          </a>
+          <a href="">
+            <button class="button_shop">
+              <img src="images/logo shop.svg" alt="icon" class="shop_icon" />
+            </button>
+          </a>
+        </div>
+      </header>
+      <!-- nav  -->
+      <nav class="nav_bar">
+        <ul class="nav_bar_ul">
+          <li class="nav_bar_li">
+            <a href="" class="nav_bar_a">HOME</a>
+          </li>
+          <li class="nav_bar_li">
+            <a href="" class="nav_bar_a">ABOUT</a>
+          </li>
+          <li class="nav_bar_li">
+            <a href="" class="nav_bar_a">SERVICES</a>
+          </li>
+          <li class="nav_bar_li">
+            <a href="" class="nav_bar_a">PLANT CARE</a>
+          </li>
+          <li class="nav_bar_li">
+            <a href="" class="nav_bar_a active">CONTACT US</a>
+          </li>
+        </ul>
+      </nav>
+      <section>
+        <div class="section_div">
+          <h2 class="section_div_title">CONTACT US</h2>
+          <form class="section_form">
+            <div class="sectio_form_div">
+              <input
+                class="form_input_1"
+                type="text"
+                name="NAME"
+                placeholder="Name"
+              />
+              <input
+                class="form_input_1"
+                type="email"
+                name="EMAIL"
+                placeholder="Email"
+              />
+            </div>
+            <label class="form_text_1" for="Question"
+              >Is your question about an existing order?</label
+            >
+            <select name="answer" id="Question">
+              <option value=""></option>
+              <option value="Yes">Yes</option>
+              <option value="No">No</option>
+            </select>
+            <!-- radio  -->
+            <div class="form_radio_div">
+              <h3 class="radio_question">
+                I have a delivery question about my order
+              </h3>
+              <div class="radio_input_div">
+                <input
+                  type="radio"
+                  id="radio_1"
+                  value="I did not receive my order"
+                  name="oredr-issues"
+                />
+                <label class="label_pink_text" for="radio_1"
+                  >I did not receive my order</label
+                >
+              </div>
+              <div class="radio_input_div">
+                <input
+                  type="radio"
+                  id="radio_2"
+                  value="My order is incorrect or arrived damaged"
+                  name="oredr-issues"
+                />
+                <label class="label_pink_text" for="radio_2"
+                  >My order is incorrect or arrived damaged</label
+                >
+              </div>
+              <div class="radio_input_div">
+                <input
+                  type="radio"
+                  id="radio_3"
+                  value="Cancel my order"
+                  name="oredr-issues"
+                />
+                <label class="label_pink_text" for="radio_3"
+                  >Cancel my order</label
+                >
+              </div>
+              <div class="radio_input_div">
+                <input
+                  type="radio"
+                  id="radio_4"
+                  value="Change my shipping address"
+                  name="oredr-issues"
+                />
+                <label class="label_pink_text" for="radio_4"
+                  >Change my shipping address</label
+                >
+              </div>
+            </div>
+            <!-- textarea  -->
+            <label class="textarea_text" for="text"
+              >Please provide more details below.</label
+            >
+            <textarea
+              name="Message"
+              id="text"
+              cols="30"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
+            <!-- checkbox  -->
+            <div class="checkbox_div">
+              <input
+                type="checkbox"
+                id="checkbox"
+                name="news"
+                value="receive"
+              />
+              <label class="label_pink_text" for="checkbox"
+                >I want to receive the newsletter
+              </label>
+            </div>
+            <a href="">
+              <button class="send_button">SEND</button>
+            </a>
+          </form>
+        </div>
+      </section>
+      <!-- footer  -->
+      <footer>
+        <div class="footer_div_1">
+          <h4 class="footer_title">Follow us</h4>
+          <div class="footer_div_social_apps">
+            <a href="https://www.facebook.com/" target="_blank">
+              <i class="fa-brands fa-square-facebook social_apps_icons"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+              <i class="fa-brands fa-instagram social_apps_icons"></i>
+            </a>
+            <a href="https://twitter.com/?lang=en" target="_blank">
+              <i class="fa-brands fa-square-twitter social_apps_icons"></i>
+            </a>
+            <a href="https://www.pinterest.com/" target="_blank">
+              <i class="fa-brands fa-square-pinterest social_apps_icons"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer_div_2">
+          <h4 class="footer_title">Contact us</h4>
+          <nav class="footer_nav">
+            <ul class="footer_ul">
+              <li class="footer_li">
+                <a
+                  href="https://maps.app.goo.gl/LL7uJ5p5qEe3gfNf7"
+                  target="_blank"
+                  class="footer_a"
+                >
+                  <i class="fa-solid fa-location-dot contact_icons"></i>
+                  New York, 94 Brodway
+                </a>
+              </li>
+              <li class="footer_li">
+                <a href="tel:+555 67 88 00" class="footer_a">
+                  <i class="fa-solid fa-phone contact_icons"></i>
+                  +555 67 88 00
+                </a>
+              </li>
+              <li class="footer_li">
+                <a href="mailto:plant@gmail.com" class="footer_a">
+                  <i class="fa-regular fa-envelope contact_icons"></i>
+                  plant@gmail.com
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <p class="footer_text">Copyright © 2023 House Plant Shop.</p>
+      </footer>
+    </div>
+  </body>
+</html>
